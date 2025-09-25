@@ -674,6 +674,7 @@ jobs:
       brew tap-new dev/azure-cli
       cp $SYSTEM_ARTIFACTSDIRECTORY/homebrew/azure-cli.rb $(brew --repository)/Library/Taps/dev/homebrew-azure-cli/Formula/
       brew install --build-from-source dev/homebrew-azure-cli/azure-cli
+      echo wat
       
       echo == Az Version ==
       az --version
